@@ -49,9 +49,9 @@ int main()
 
 	//binary search
 	printf("\nEnter element to be searched: ");
-	int inpB;
+	int item;
 	int flagB=0;
-	scanf("%d", &inpB);
+	scanf("%d", &item);
 
 	int start = 0;
 	int end = n-1;
@@ -61,7 +61,7 @@ int main()
 	{
 		mid = (start + end)/2;
 
-		if(inpB==arr[mid])
+		if(item==arr[mid])
 		{
 			flagB=1;
 			printf("Found at position %d\n", mid+1);
