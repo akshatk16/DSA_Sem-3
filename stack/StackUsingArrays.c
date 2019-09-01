@@ -44,7 +44,7 @@ int pop()
 {
 	int x;
 	if(isEmpty())
-		return -1;
+		return 1;
 	else
 	{
 		x = stack[top];
@@ -57,8 +57,8 @@ int pop()
 
 int peek()
 {
-	if(isEmpty)
-		return 0;
+	if(isEmpty())
+		return 1;
 	else
 		return stack[top];
 }
@@ -87,6 +87,8 @@ int main()
 	push(4);
 	push(5);
 	push(6);
+
+	printf("Peeking top element: %d \n\n", peek());
 
 	printf("%d popped\n", pop());
 	printf("%d popped\n", pop());
