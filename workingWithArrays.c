@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int main()
+void main()
 {
 
 	//input array length
@@ -78,5 +78,5 @@ int main()
 		printf("%d not found in array\n", inpB);
 
 
-	return 0;
+	
 }
