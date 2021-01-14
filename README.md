@@ -2,7 +2,8 @@
 ## Data Science and Algorithms
 
 ### Codes with outputs
-
+*Use this only for reference. Please study and complete your practicals on time :)*
+***
 Star this repository for future updates!
 
 Add to this repository by sending pull requests.
